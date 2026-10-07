@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Experience the A$RAM cinematic prelude and enter the world",
+    "sanity": true,
+    "viewport": "mobile",
+    "covers": ["automatic cinematic prelude", "prelude skip control", "monumental portal", "explicit ENTER transition", "artist world reveal"],
+    "description": "Verifies a mobile visitor receives the cinematic sequence, reaches the portal, and can enter the artist world without horizontal overflow.",
+    "steps": ["Open A$RAM World on mobile", "Observe the automatic era/title sequence or use SKIP", "At the A$RAM portal select ENTER", "Scroll through the page"],
+    "expected": "The prelude resolves into the portal, ENTER reveals the site, and the page remains contained within the mobile viewport."
+  },
+  {
+    "name": "Travel through the complete A$RAM sequence",
+    "viewport": "desktop",
+    "covers": ["Danse final. current release", "OLD ME exact six-record archive", "PILLS two-track capsule", "SPECTRAL teaser"],
+    "description": "Verifies the updated chronology and exact visible release titles.",
+    "steps": ["Enter the site", "Scroll through Danse final. and OLD ME", "Verify DE(PRESSED), IN(JUSTICE), INTER(LUDE), GREEN(PLUG), OVER(VIEW), SECRET(MOVE)", "Continue through PILLS and SPECTRAL"],
+    "expected": "The site shows Danse final., the six exact OLD ME titles, PILLS with WEIRD AS DUCK and WILD, then SPECTRAL."
+  },
+  {
+    "name": "Keep SPECTRAL contained on mobile",
+    "viewport": "mobile",
+    "covers": ["SPECTRAL mobile typography", "responsive containment", "future-era readability"],
+    "description": "Verifies the large SPECTRAL treatment stays visually contained on a narrow screen.",
+    "steps": ["Enter the site on mobile", "Scroll to SPECTRAL", "Inspect the main SPECTRAL heading and background treatment"],
+    "expected": "SPECTRAL remains readable and does not create horizontal page overflow."
+  },
+  {
+    "name": "Reach official A$RAM destinations",
+    "viewport": "mobile",
+    "covers": ["official social links", "official music links", "mobile link navigation"],
+    "description": "Verifies visitors can reach the official A$RAM platforms.",
+    "steps": ["Enter the site", "Scroll to the final A$RAM section", "Use the Instagram, Spotify, Apple Music, and YouTube links"],
+    "expected": "All four official destinations are presented as usable outbound links."
+  }
+]
